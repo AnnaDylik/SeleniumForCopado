@@ -1,0 +1,54 @@
+{
+  "id": "7b6aed87-469f-4a5d-8645-b11b8ad890d6",
+  "version": "2.0",
+  "name": "GoogleSearchForCopado",
+  "url": "https://www.google.pl/",
+  "tests": [{
+    "id": "efdf555c-3115-4593-9ee6-bfefc7bc56f8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "0d22c1fa-60b9-4fed-9b49-6fcebbc22cd0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.pl/search?q=how+to+be+nice&sxsrf=AB5stBjTeWLv0cjguw5H-hwYX7fl8rC-lA%3A1691390305873&source=hp&ei=YZHQZPP6Mo6P9u8Px9iU2Aw&iflsig=AD69kcEAAAAAZNCfcYz23HdTiajN1wdduzhmGZneEmVf&ved=0ahUKEwizr-zy98mAAxWOh_0HHUcsBcsQ4dUDCAk&uact=5&oq=how+to+be+nice&gs_lp=Egdnd3Mtd2l6Ig5ob3cgdG8gYmUgbmljZTIIEAAYgAQYywEyCBAAGIAEGMsBMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI1RdQAFjkFHAAeACQAQCYAWigAdkJqgEEMTIuMrgBA8gBAPgBAcICBxAjGIoFGCfCAgQQIxgnwgIIEAAYigUYkQLCAgsQLhiABBjHARjRA8ICBRAuGIAEwgIHEC4YigUYQ8ICCBAuGIAEGNQCwgIIEC4YgAQYywHCAgsQLhiABBjUAhjLAQ&sclient=gws-wiz",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a23d001-ac2f-47f0-a109-e54b011759dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b266139c-4044-423a-bce5-1d9f4460d8ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MjjYud:nth-child(4) .LC20lb",
+      "targets": [
+        ["css=.MjjYud:nth-child(4) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[3]/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'3 Ways to Be Nice')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d703a4c-ee4a-4513-bad8-d5779ddd1018",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "08d94798-168f-4206-b98f-2a398b25605c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["efdf555c-3115-4593-9ee6-bfefc7bc56f8"]
+  }],
+  "urls": ["https://www.google.pl/"],
+  "plugins": []
+}
