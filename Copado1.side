@@ -1,0 +1,90 @@
+{
+  "id": "e46acacf-226f-4e22-b205-cd96b590280f",
+  "version": "2.0",
+  "name": "Copado1",
+  "url": "https://luma.enablementadobe.com/content/luma/us/en.html#",
+  "tests": [{
+    "id": "d8a3e4e2-636e-4bee-a25e-1cfda95752fc",
+    "name": "Untitled",
+    "commands": [{
+      "id": "132c6c3d-d292-47e3-8ba8-f14da44251d7",
+      "comment": "",
+      "command": "open",
+      "target": "https://luma.enablementadobe.com/content/luma/us/en.html#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3ac519d-bbd9-43dd-b6cc-91b2503efe20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0de59350-9e40-4ea0-a108-f9e757e716cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.foundation-list-item:nth-child(3) .we-ProductsGrid-item-link",
+      "targets": [
+        ["css=.foundation-list-item:nth-child(3) .we-ProductsGrid-item-link", "css:finder"],
+        ["xpath=//body[@id='page-702890ad52']/div/div/div/div[3]/div/div[9]/div/ul/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/luma/us/en/products/women/tops/hoodies/autumn-pullie.html')]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "765bba88-3854-4bb1-8ce1-cb54bd4b4782",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(7) > .we-Product-radio:nth-child(3) div",
+      "targets": [
+        ["css=.form-group:nth-child(7) > .we-Product-radio:nth-child(3) div", "css:finder"],
+        ["xpath=//body[@id='page-78cef98e67']/div/div/div/div[3]/div/div/div[2]/form/div[2]/div[3]/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b06b1c3-3e6b-46e1-bdc8-2a4ceabee731",
+      "comment": "",
+      "command": "click",
+      "target": "css=.we-Product-actions > .btn",
+      "targets": [
+        ["css=.we-Product-actions > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='page-78cef98e67']/div/div/div/div[3]/div/div/div[2]/form/div[5]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de1399dd-b449-4c8f-bf36-d9ad385a8e94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkout')]", "xpath:link"],
+        ["xpath=//body[@id='page-78cef98e67']/div[2]/div[2]/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/luma/us/en/user/cart.html')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38fb4d9b-ad9b-42be-a508-92ee66112e3a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5d67bb62-30b1-4a21-9f0f-f694fa59af7e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d8a3e4e2-636e-4bee-a25e-1cfda95752fc"]
+  }],
+  "urls": ["https://luma.enablementadobe.com/content/luma/us/en.html#"],
+  "plugins": []
+}
